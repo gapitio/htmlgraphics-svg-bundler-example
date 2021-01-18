@@ -1,1 +1,91 @@
-{}
+{
+  "showcase": true,
+  "dummyUrl": "https://www.google.com",
+  "autofitpanels": true,
+  "mapUrl": "https://stackoverflow.com/",
+  "campusUrl": "https://stackoverflow.com/",
+  "currentBuilding": "c",
+  "loadBar": {
+    "range": [10000, 20000],
+    "baseUnit": "W"
+  },
+  "sidebar": {
+    "totalItLoad": {
+      "id": "total-it-load",
+      "metric": "\"data-hall-1\"+\"data-hall-2\"",
+      "baseUnit": "W",
+      "digits": 2
+    },
+    "totalCooling": {
+      "id": "total-cooling",
+      "metric": "total-cooling",
+      "baseUnit": "W",
+      "digits": 2
+    },
+    "totalPue": {
+      "id": "total-pue",
+      "metric": "('data-hall-1'+'data-hall-2')/'total-load'",
+      "baseUnit": "",
+      "digits": 1
+    }
+  },
+  "buildings": [
+    {
+      "id": "a",
+      "url": "https://stackoverflow.com/",
+      "baseUnit": "W",
+      "digits": 2
+    },
+    {
+      "id": "b",
+      "url": "https://stackoverflow.com/",
+      "baseUnit": "W",
+      "digits": 2
+    },
+    {
+      "id": "c",
+      "url": "https://stackoverflow.com/",
+      "baseUnit": "W",
+      "digits": 2
+    }
+  ],
+  "dataHalls": [
+    {
+      "id": "data-hall-1",
+      "metric": "data-hall-1",
+      "url": "",
+      "baseUnit": "W",
+      "digits": 2
+    },
+    {
+      "id": "data-hall-2",
+      "metric": "data-hall-2",
+      "url": "",
+      "baseUnit": "W",
+      "digits": 2
+    }
+  ],
+  "pods": [
+    {
+      "id": "pod-a",
+      "metric": "pod-a",
+      "url": "",
+      "baseUnit": "W",
+      "digits": 2
+    },
+    {
+      "id": "pod-b",
+      "metric": "pod-b",
+      "url": "https://stackoverflow.com/",
+      "baseUnit": "W",
+      "digits": 2
+    },
+    {
+      "id": "pod-c",
+      "metric": "pod-c",
+      "url": "https://stackoverflow.com/",
+      "baseUnit": "W",
+      "digits": 2
+    }
+  ]
+}

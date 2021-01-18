@@ -22,6 +22,8 @@
     "watch": "rollup -c rollup.config.dev.js -w"
   },
   "devDependencies": {
+    "@gapit/format-si": "^0.0.1",
+    "@gapit/grafana-metric": "^0.0.1",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^11.1.0",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
